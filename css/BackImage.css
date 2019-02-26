@@ -1,0 +1,27 @@
+@charset "utf-8";
+//*背景の回転*//
+div.bg { width:100%; position:fixed; text-align:center; }
+#rotate {
+	width:2000px;
+	height:2000px;
+	margin:-1000px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index:-30;//*Z軸（奥行）*//
+	animation-name: rotateArea;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 200s;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: rotateArea;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-duration: 150s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: rotateArea;
+	-moz-animation-timing-function: linear;
+	-moz-animation-delay: 0s;
+	-moz-animation-duration: 150s;
+	-moz-animation-iteration-count: infinite;
+  animation: rotate-anime 100s linear infinite;
