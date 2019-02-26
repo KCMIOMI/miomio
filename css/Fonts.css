@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@font-face {
+font-family: 'CHANKENS';
+  src: url('../Fonts/CHANKENS.TTF') format('TrueType');
+}
+@font-face {
+font-family: 'Action of the Time New';
+  src: url('../Fonts/Action of the Time New.TTF') format('TrueType');
+}
+@font-face {
+font-family: 'Ravenside-PersonalUse';
+  src: url('../Fonts/Ravenside-PersonalUse.otf') format('OpenType');
+}
+
+.TitleFont{
+  font-family: "Action of the Time New";
+}
+.TitleFont01{
+  font-family: "Ravenside-PersonalUse";
+}
