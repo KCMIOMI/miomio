@@ -1,1 +1,8 @@
-@import url("css/common.css");
+@charset "utf-8";
+@import url(css/common2.css);
+@import url(css/Fonts.css);
+@import url(css/BackImage.css);
+@import url(css/RotateAnime.css);
+@import url(css/ButtonEffect.css);
+@import url(css/Animating SVG Text.css);
+@import url(css/DesignClass.css);
