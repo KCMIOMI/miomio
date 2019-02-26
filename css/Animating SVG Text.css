@@ -1,0 +1,29 @@
+﻿@charset "utf-8";
+/*クールなテキストアニメーション*/
+svg {
+      visibility:hidden;
+      margin:60px auto;
+      display:block;
+      z-index:10;
+      position:absolute;
+      left:0;
+      right:0;
+    }
+      #H line,
+            #A polyline,
+            #A line,
+            #R path,
+            #R line,
+            #r1 path,
+            #r1 line,
+            #I line,
+            #S path,
+            #O path,
+            #N path {
+                fill:none;
+                stroke-width: 6;
+                stroke:#FFF;
+            }
+.bgimage {
+  background-size:cover;
+}
